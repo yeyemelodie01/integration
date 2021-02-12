@@ -6,6 +6,7 @@ body{
 li{
 	list-style: none;
 }
+
 a{
     text-decoration: none;
 }
@@ -51,16 +52,35 @@ header nav ul li i{
 	color:#0065FC;
 }
 
+
+
 /*HEBERGEMENT*/
-#herbergements{
-	w
-}
 #hebergements article{
 	background-repeat: no-repeat;
 }
-.part{
+.part1{
+	background-color: #F2F2F2;
+	float: left;
+}
+
+.part2{
 	background-color: #F2F2F2;
 }
+
+.part1 .container{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.part2 .container{
+	display: flex;
+	
+}
+#populaires article{
+	background-repeat: no-repeat;
+}
+
 /*ACTIVITES*/
 #activite div{
 	background-repeat: no-repeat;
