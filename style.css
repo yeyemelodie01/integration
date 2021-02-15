@@ -60,18 +60,20 @@ header nav ul li i {
 }
 .localisation{
 	display: flex;
+	align-items: center;
 }
 
-.localisation p{
-	padding: 12px 12px 12px 12px;
+.localisation input{
+	padding: 8px 0px 17px 4px;
 	border-block: 1px solid #f2f2f2;
 	font-weight: bold;
 }
 
-.button{
+button{
 	background-color: #0065fc;
 	color: #fff;
 	border-radius: 0px 14px 14px 0px;
+	padding: 12px;
 }
 
 .filtre{
@@ -133,6 +135,7 @@ header nav ul li i {
 }
 .info{
 	display: flex;
+	align-items: center;
 }
 
 .info i{
@@ -142,6 +145,7 @@ header nav ul li i {
 	border-radius: 50%;
 	font-size: 12px;
 	margin-right: 12px;
+
 }
 
 /* HEBERGEMENT */
