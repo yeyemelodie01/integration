@@ -54,7 +54,6 @@ header nav ul li i {
 /* RECHERCHE */
 .noir {
    background-color: #f2f2f2;
-   margin: 16px 0px;
    padding: 14px;
    border-radius: 14px 0px 0px 14px;
 }
@@ -64,16 +63,19 @@ header nav ul li i {
 }
 
 .localisation input{
-	padding: 8px 0px 17px 4px;
+	padding: 12px 0px 12px 4px;
 	border-block: 1px solid #f2f2f2;
 	font-weight: bold;
+	font-size: 14px;
+	border-style: solid hidden solid hidden;
 }
 
 button{
 	background-color: #0065fc;
 	color: #fff;
 	border-radius: 0px 14px 14px 0px;
-	padding: 12px;
+	padding: 14px;
+	border: none;
 }
 
 .filtre{
@@ -88,11 +90,8 @@ button{
 }
 
 .filtre i{
-	display: flex;
-	align-items: center;
 	border-radius: 50%;
 	margin: -2px 14px -2px 0px;
-	padding: 11px 11px;
 	font-size: 15px;
 	color: #0065fc;
 	background-color: #deebff;
@@ -100,7 +99,6 @@ button{
 
 .button2{
 	display: flex;
-	
 }
 
 .circle1 i{
@@ -149,25 +147,58 @@ button{
 }
 
 /* HEBERGEMENT */
-#hebergements article {
-   background-repeat: no-repeat;
+#hebergements{
+	display: flex;
 }
 
 .part {
    background-color: #f2f2f2;
-   float: left;
+   width: 62%;
 }
 
 .part .container {
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
+   flex-flow: row wrap;
 }
 
-#populaires article { background-repeat: no-repeat; }
+.part figure{
+	margin: 0px 16px 29px 28px;
+}
 
-.part2 .container { display: flex; }
+.part img{
+	width: 164px;
+}
 
-.part2 { background-color: #f2f2f2; }
+.part figcaption{
+	background: #fff;
+}
+.part figcaption h3{
+	font-size: 14px;
+	margin: 0;
+}
+
+#populaires article { 
+ 
+}
+#populaires h3{
+	float: left;
+}
+.part2 i { 
+	padding: 23px 0px 2px 36px;
+}
+.part2 figure{
+}
+.part2 img{
+	width: 156px;
+	height: 140px;
+	float: left;
+}
+
+.part2 { 
+	background-color: #f2f2f2;
+	margin-left: 26px;
+}
 
 /* ACTIVITES */
 #activite div { background-repeat: no-repeat; }
