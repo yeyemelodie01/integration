@@ -184,6 +184,8 @@ button{
 
 .part figure{
 	margin: 0px 0px 30px 31px;
+	box-shadow: 8px 8px 10px #aaa;
+	border-radius: 10px;
 }
 
 .part img{
@@ -196,7 +198,6 @@ button{
 .part figcaption{
 	background: #fff;
 	border: 4px solid #fff;
-	border-radius: 10px 10px 0 0;;
 	border-radius: 0 0 10px 10px;
 	margin-top: -4px;
 	padding: 0px 0px 0px 5px;
@@ -234,7 +235,7 @@ button{
 }
 
 .part2 figure{
-	margin: 10px 8px 39px 26px;
+	margin: 0 0 32px 35px;
 }
 
 .part2 figcaption{
@@ -260,20 +261,114 @@ button{
 .images3{
 	width: 93px;
 }
+.legend{
 
+}
 
+.legend p{
+	margin-bottom: 42px;
+}
 
+.legend2 p{
+	margin-bottom: 26px;
+}
+
+.legend3 p{
+	margin-bottom: 38px;
+}
 
 
 
 
 /* ACTIVITES */
-#activite figure img {
-	width: 150px;
-	height: 86px;
+
+#activite{
+	height: 528px;
 }
 
-#activite div article { }
+.vieux{
+	float: left;
+	margin: 0;
+	margin-right: 18px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 10px #aaa;
+}
+
+.vieux img{
+	width: 260px;
+	height: 348px;
+	border-radius: 15px 15px 0px 0;
+}
+
+.vieux figcaption{
+	border-radius: 0 0 15px 15px;
+	border: 2px solid;
+	margin-top: -4px;
+}
+
+.image1{
+	margin: 0;
+	margin-bottom: 104px;
+	width: 222px;
+	height: 120px;
+}
+
+.image2{
+	margin: 0;
+	width: 222px;
+	height: 120px;
+}
+
+.image3{
+	margin: 0;
+	width: 222px;
+	height: 120px;
+}
+
+.image4{
+	margin: 0;
+	width: 222px;
+	height: 120px;
+}
+
+.column{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 26px;
+}
+
+.column img{
+	width: 260px;
+	height: 90px;
+	border-radius: 12px 12px 0 0;
+}
+
+.column figcaption{
+	border-radius: 0 0 15px 15px;
+	border: 2px solid;
+	margin-top: -4px;
+}
+
+.column2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 260px;
+}
+
+.column2 img{
+	width: 260px;
+	height: 142px;
+	border-radius: 12px 12px 0 0;
+}
+
+.column2 figcaption{
+	border-radius: 0 0 15px 15px;
+	border: 2px solid;
+	margin-top: -4px;
+}
 
 /* FOOTER */
 footer {
@@ -290,5 +385,4 @@ footer p{
 }
 
 footer div{
-	margin-left: 39px;
 }
