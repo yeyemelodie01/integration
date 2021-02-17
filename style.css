@@ -12,7 +12,9 @@ a {
    text-decoration: none;
    color: black;
 }
-
+.gris{
+	color: #f2f2f2;
+}
 /* MENU */
 header { height: 120px; }
 
@@ -150,24 +152,32 @@ button{
 #hebergements{
 	display: flex;
 }
-
-.part {
+#hebergements h2{
+	margin-left: 25px;
+}
+.part span{
+	font-weight: bold;
+	margin-left: 25px;
+}
+.part{
    background-color: #f2f2f2;
    width: 62%;
+   height: 548px;
 }
 
 .part .container {
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
    flex-flow: row wrap;
 }
 
 .part figure{
-	margin: 0px 16px 29px 28px;
+	margin: 0px 15px 19px 9px;
 }
 
 .part img{
-	width: 164px;
+	width: 150px;
+	height: 86px;
 }
 
 .part figcaption{
@@ -178,34 +188,62 @@ button{
 	margin: 0;
 }
 
-#populaires article { 
- 
+/* POPULAIRES */
+#populaires h3 {
+	margin: 0 0 0 27px;
 }
-#populaires h3{
-	float: left;
-}
-.part2 i { 
+
+.part2 h3 i { 
 	padding: 23px 0px 2px 36px;
 }
+
 .part2 figure{
 }
+
 .part2 img{
-	width: 156px;
-	height: 140px;
+	height: 100px;
 	float: left;
+
+}
+.part2 figcaption{
+	font-size: 10px;
+	background: #fff;
+}
+
+.part2 .container{
+	display: flex;
+	flex-direction: column;
+	width: 372px;
 }
 
 .part2 { 
 	background-color: #f2f2f2;
+	height: 548px;
 	margin-left: 26px;
 }
 
 /* ACTIVITES */
-#activite div { background-repeat: no-repeat; }
+#activite figure img {
+	width: 150px;
+	height: 86px;
+}
 
-#activite div article { background-repeat: no-repeat; }
+#activite div article { }
 
 /* FOOTER */
 footer {
    background-color: #f2f2f2;
+   display: flex;
+   justify-content: space-around;
+}
+
+footer h3{
+	font-size: 16px;
+}
+footer p{
+	font-size: 14px;
+}
+
+footer div{
+	margin-left: 39px;
 }
