@@ -1,7 +1,7 @@
 /* GENERAL */
 body { 
 	font-family: 'Raleway', sans-serif;
-	width: 1050px;
+	width: 1103px
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -12,15 +12,19 @@ a {
    text-decoration: none;
    color: black;
 }
-.gris{
-	color: #f2f2f2;
+
+img {
+	width : 100%; 
+	height : auto;
 }
+
 /* MENU */
 header { height: 120px; }
 
 header img {
   float: left;
   margin-top: 54px;
+  width: 97px;
 }
 
 header nav {
@@ -152,37 +156,55 @@ button{
 #hebergements{
 	display: flex;
 }
+.etoile{
+	color: #0065fc;
+}
+.etoile .gris{
+	color: rgb(217,217,217);
+}
+
 #hebergements h2{
 	margin-left: 25px;
 }
+
 .part span{
 	font-weight: bold;
 	margin-left: 25px;
 }
+
 .part{
    background-color: #f2f2f2;
-   width: 62%;
-   height: 548px;
+   border-radius: 27px;
 }
 
 .part .container {
    display: flex;
-   justify-content: space-around;
    flex-flow: row wrap;
 }
 
 .part figure{
-	margin: 0px 15px 19px 9px;
+	margin: 0px 0px 30px 31px;
 }
 
 .part img{
-	width: 150px;
-	height: 86px;
+	width: 209px;
+	height: 96px;
+	border: 4px solid #fff;
+	border-radius: 10px 10px 0 0;
 }
 
 .part figcaption{
 	background: #fff;
+	border: 4px solid #fff;
+	border-radius: 10px 10px 0 0;;
+	border-radius: 0 0 10px 10px;
+	margin-top: -4px;
+	padding: 0px 0px 0px 5px;
 }
+.part figcaption p{
+	margin: 2px 0px;
+}
+
 .part figcaption h3{
 	font-size: 14px;
 	margin: 0;
@@ -190,7 +212,21 @@ button{
 
 /* POPULAIRES */
 #populaires h3 {
-	margin: 0 0 0 27px;
+	margin-left: 27px;
+	margin-top: 0;
+}
+
+.part2 { 
+	background-color: #f2f2f2;
+	width: 317px;
+	height: 548px;
+	margin-left: 31px;
+	border-radius: 27px;
+}
+.part2 .container{
+	display: flex;
+	flex-direction: column;
+	width: 299px;
 }
 
 .part2 h3 i { 
@@ -198,29 +234,38 @@ button{
 }
 
 .part2 figure{
+	margin: 10px 8px 39px 26px;
 }
 
-.part2 img{
-	height: 100px;
-	float: left;
-
-}
 .part2 figcaption{
 	font-size: 10px;
 	background: #fff;
+	border: 4px solid #fff;
+	border-radius: 10px 10px 10px 10px;
+	padding: 0px 0px 0px 5px;
+	height: 96px;
 }
 
-.part2 .container{
-	display: flex;
-	flex-direction: column;
-	width: 372px;
+.part2 img{
+	float: left;
+	border: 4px solid #fff;
+	border-radius: 10px 0 0 10px;
+	height: 96px;
 }
 
-.part2 { 
-	background-color: #f2f2f2;
-	height: 548px;
-	margin-left: 26px;
+.images{
+	width: 108px;
 }
+
+.images3{
+	width: 93px;
+}
+
+
+
+
+
+
 
 /* ACTIVITES */
 #activite figure img {
