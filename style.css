@@ -68,7 +68,7 @@ header nav ul li i {
 
 .localisation input{
 	padding: 12px 0px 12px 4px;
-	border-block: 1px solid #f2f2f2;
+	border: 1px solid #f2f2f2;
 	font-weight: bold;
 	font-size: 14px;
 	border-style: solid hidden solid hidden;
@@ -128,7 +128,7 @@ button{
 	display: flex;
 	align-items: center;
 	border-style: solid solid solid hidden;
-	transition:all 2s;
+	transition:all 1s;
 }
 
 .button2 p:hover{
@@ -209,6 +209,10 @@ button{
 .part figcaption h3{
 	font-size: 14px;
 	margin: 0;
+}
+
+.container a : link{
+	color: red;
 }
 
 .image1{
@@ -424,3 +428,12 @@ footer div{
 	position: relative;
 	right: 108px;
 }
+
+/* RESPONSIVE TABLETTE */
+
+@media (max-width: 480px){
+	body{
+		background: green;
+	}
+}
+/* RESPONSIVE TELEPHONE */
