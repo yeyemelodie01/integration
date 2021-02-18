@@ -1,7 +1,7 @@
 /* GENERAL */
 body { 
 	font-family: 'Raleway', sans-serif;
-	width: 1103px
+	width: 1103px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -14,8 +14,7 @@ a {
 }
 
 img {
-	width : 100%; 
-	height : auto;
+
 }
 
 /* MENU */
@@ -33,13 +32,12 @@ header nav {
 }
 
 header nav ul li { 
-	float: left; 
-	display: inline-block; 
+	float: left;
 }
 
 header nav ul li a {
  margin-right: 20px;
- padding: 63px 31px 0 35px;
+ padding: 61px 31px 0 35px;
 }
 
 header nav ul li a:hover {
@@ -164,43 +162,47 @@ button{
 }
 
 #hebergements h2{
-	margin-left: 25px;
+	margin-left: 32px;
 }
 
 .part span{
 	font-weight: bold;
-	margin-left: 25px;
+	margin-left: 32px;
 }
 
 .part{
    background-color: #f2f2f2;
    border-radius: 27px;
+   width: 713px;
 }
 
 .part .container {
    display: flex;
    flex-flow: row wrap;
+   justify-content: space-around;
 }
 
 .part figure{
-	margin: 0px 0px 30px 31px;
+	margin: 0 0 30px 0;
 	box-shadow: 8px 8px 10px #aaa;
-	border-radius: 10px;
+	border: 6px solid #fff;
+	border-radius: 24px;
+	height: 156px;
 }
 
 .part img{
-	width: 209px;
-	height: 96px;
-	border: 4px solid #fff;
-	border-radius: 10px 10px 0 0;
+	/*border: 4px solid #fff;*/
+	border-radius: 17px 16px 0 0;
+	width: 200px;
+	height: 100px;
+	object-fit: cover;
 }
 
 .part figcaption{
 	background: #fff;
-	border: 4px solid #fff;
-	border-radius: 0 0 10px 10px;
-	margin-top: -4px;
-	padding: 0px 0px 0px 5px;
+	border-radius: 0 0 17px 17px;
+	padding: 0px 0px 0px 11px;
+	font-size: 12px;
 }
 .part figcaption p{
 	margin: 2px 0px;
@@ -211,23 +213,52 @@ button{
 	margin: 0;
 }
 
+.image1{
+	width: 200px;
+}
+
+.image2{
+	width: 200px;
+}
+
+.image3{
+	width: 200px;
+}
+
+.image4{
+	width: 200px;
+	height: 275px;
+}
+
+.image5{
+	width: 200px;
+}
+
+.image6{
+	width: 200px;
+}
+
 /* POPULAIRES */
-#populaires h3 {
-	margin-left: 27px;
+#populaires h2 i{
 	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#populaires h3 {
+	margin: 1px;
 }
 
 .part2 { 
 	background-color: #f2f2f2;
-	width: 317px;
+	width: 360px;
 	height: 548px;
 	margin-left: 31px;
 	border-radius: 27px;
+	padding-top: 1px;
 }
 .part2 .container{
 	display: flex;
 	flex-direction: column;
-	width: 299px;
 }
 
 .part2 h3 i { 
@@ -235,48 +266,65 @@ button{
 }
 
 .part2 figure{
-	margin: 0 0 32px 35px;
+	margin: 6px 30px 14px 30px;
+	box-shadow: 8px 8px 10px #aaa;
+	border: 6px solid #fff;
+	border-radius: 24px;
 }
 
 .part2 figcaption{
-	font-size: 10px;
+	font-size: 12px;
 	background: #fff;
-	border: 4px solid #fff;
-	border-radius: 10px 10px 10px 10px;
-	padding: 0px 0px 0px 5px;
-	height: 96px;
+	border-radius: 0 18px 18px 0;
+	height: 117px;
+	width: 156px;
+	position: absolute;
+	right: 61px;
+	padding: 7px 0px 0px 19px;
 }
 
 .part2 img{
 	float: left;
-	border: 4px solid #fff;
-	border-radius: 10px 0 0 10px;
-	height: 96px;
+	border-radius: 17px 0 0 17px;
+	width: 116px;
+	height: 124px;
+	object-fit: cover;
 }
 
-.images{
-	width: 108px;
+.image7{
+	
 }
 
-.images3{
-	width: 93px;
+.image8{
+	
 }
+
+.image9{
+	
+}
+
 .legend{
 
 }
 
 .legend p{
-	margin-bottom: 42px;
+	margin-bottom: 46px;
+	margin-top: 0;
 }
 
 .legend2 p{
-	margin-bottom: 26px;
+	margin-bottom: 46px;
+	margin-top: 0;
 }
 
 .legend3 p{
-	margin-bottom: 38px;
+	margin-bottom: 31px;
+	margin-top: 0;
 }
 
+.part2 .etoile{
+	font-size: 10px;
+}
 
 
 
@@ -289,7 +337,7 @@ button{
 .vieux{
 	float: left;
 	margin: 0;
-	margin-right: 18px;
+	margin-right: 40px;
 	border-radius: 15px;
 	box-shadow: 8px 8px 10px #aaa;
 }
@@ -306,26 +354,26 @@ button{
 	margin-top: -4px;
 }
 
-.image1{
+.img1{
 	margin: 0;
 	margin-bottom: 104px;
 	width: 222px;
 	height: 120px;
 }
 
-.image2{
+.img2{
 	margin: 0;
 	width: 222px;
 	height: 120px;
 }
 
-.image3{
+.img3{
 	margin: 0;
 	width: 222px;
 	height: 120px;
 }
 
-.image4{
+.img4{
 	margin: 0;
 	width: 222px;
 	height: 120px;
@@ -336,7 +384,7 @@ button{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-right: 26px;
+	margin-right: 40px;
 }
 
 .column img{
