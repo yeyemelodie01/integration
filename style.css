@@ -282,7 +282,7 @@ button{
 	height: 117px;
 	width: 156px;
 	position: absolute;
-	right: 121px;
+	right: 59px;
 	padding: 7px 0px 0px 19px;
 }
 
@@ -292,22 +292,6 @@ button{
 	width: 116px;
 	height: 124px;
 	object-fit: cover;
-}
-
-.image7{
-	
-}
-
-.image8{
-	
-}
-
-.image9{
-	
-}
-
-.legend{
-
 }
 
 .legend p{
@@ -442,4 +426,6 @@ footer p{
 }
 
 footer div{
+	position: relative;
+	right: 108px;
 }
