@@ -312,16 +312,6 @@ button{
 	margin-top: 0;
 }
 
-.legend2 p{
-	margin-bottom: 46px;
-	margin-top: 0;
-}
-
-.legend3 p{
-	margin-bottom: 31px;
-	margin-top: 0;
-}
-
 .part2 .etoile{
 	font-size: 10px;
 }
@@ -337,85 +327,103 @@ button{
 .vieux{
 	float: left;
 	margin: 0;
-	margin-right: 40px;
+	margin-right: 31px;
 	border-radius: 15px;
 	box-shadow: 8px 8px 10px #aaa;
 }
 
 .vieux img{
-	width: 260px;
-	height: 348px;
+	width: 262px;
+	height: 361px;
+	object-fit: cover;
 	border-radius: 15px 15px 0px 0;
 }
 
 .vieux figcaption{
 	border-radius: 0 0 15px 15px;
+	font-size: 13px;
 	border: 2px solid;
-	margin-top: -4px;
-}
-
-.img1{
-	margin: 0;
-	margin-bottom: 104px;
-	width: 222px;
-	height: 120px;
-}
-
-.img2{
-	margin: 0;
-	width: 222px;
-	height: 120px;
-}
-
-.img3{
-	margin: 0;
-	width: 222px;
-	height: 120px;
-}
-
-.img4{
-	margin: 0;
-	width: 222px;
-	height: 120px;
+	background: #fff;
 }
 
 .column{
 	float: left;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	margin-right: 40px;
-}
-
-.column img{
-	width: 260px;
-	height: 90px;
-	border-radius: 12px 12px 0 0;
+	margin-right: 15px;
 }
 
 .column figcaption{
-	border-radius: 0 0 15px 15px;
+	border-radius: 0 0 22px 22px;
+	font-size: 13px;
 	border: 2px solid;
-	margin-top: -4px;
+	background: #fff;
+}
+
+.img1{
+	margin: 0;
+	margin-bottom: 38px;
+	border-radius: 24px;
+	border: 2px solid darkcyan;
+}
+
+.img1 img{
+	width: 250px;
+	height: 154px;
+	object-fit: cover;
+	border-radius: 22px 22px 0 0;
+}
+
+.img2{
+	margin: 0;
+	border-radius: 24px;
+	border: 2px solid darkcyan;
+}
+
+.img2 img{
+	width: 250px;
+	height: 93px;
+	object-fit: cover;
+	border-radius: 22px 22px 0 0;
 }
 
 .column2{
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	width: 260px;
-}
-
-.column2 img{
-	width: 260px;
-	height: 142px;
-	border-radius: 12px 12px 0 0;
 }
 
 .column2 figcaption{
+	background: #fff;
 	border-radius: 0 0 15px 15px;
+	font-size: 13px;
 	border: 2px solid;
-	margin-top: -4px;
+}
+
+.img3{
+	margin: 0;
+	margin-bottom: 45px;
+	border-radius: 24px;
+	border: 2px solid darkcyan;
+}
+
+.img3 img{
+	width: 250px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 22px 22px 0 0;
+}
+
+.img4{
+	margin: 0;
+	border-radius: 24px;
+	border: 2px solid darkcyan;
+}
+
+.img4 img{
+	width: 250px;
+	height: 144px;
+	object-fit: cover;
+	border-radius: 22px 22px 0 0;
 }
 
 /* FOOTER */
