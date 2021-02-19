@@ -1,0 +1,79 @@
+/* RESPONSIVE TELEPHONE */
+
+@media (max-width: 480px){
+	body{
+		width: 440px;
+		background: green;
+	}
+
+	header{
+		height: 258px;
+		margin: 0;
+	}
+	header img{
+		float: none;
+		margin-top: 14px;
+	}
+
+	.list{
+		position: relative;
+		right: 54px;
+	}
+
+	.list a:hover{
+		border:none;
+		color: none;
+	}
+
+	.list a:active{
+		border-bottom: 2px solid #0065fc;
+	}
+
+	.bleu{
+		position: relative;
+		bottom: 70px;
+		left: 271px;
+	}
+
+	#recherche{
+		margin: 0 32px 0 32px;
+	}
+
+	#recherche h1{
+		
+	}
+
+	div p{
+		margin-top: 12px;
+	}
+
+	.filtre{
+		display: block;
+	}
+
+	.filtre p{
+		margin: 34px 0 10px 0;
+	}
+
+	.button2{
+		margin-bottom: 19px;
+	}
+
+	.button2 p{
+		margin: 0;
+	}
+
+	.circle1{
+    	width: 162px;
+	}
+
+	.info p{
+		position: relative;
+		top: 11px;
+		font-size: 17px;
+	}
+
+	#hebergements{
+		flex-direction: column-reverse;
+	}
+}
