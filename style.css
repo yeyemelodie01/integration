@@ -327,6 +327,7 @@ button{
 	margin-right: 24px;
 	border-radius: 15px;
 	box-shadow: 8px 8px 10px #aaa;
+	background: #fff;
 }
 
 .vieux img{
@@ -360,6 +361,7 @@ button{
 	margin-bottom: 40px;
 	border-radius: 24px;
 	box-shadow: 8px 8px 10px #aaa;
+	background: #fff;
 }
 
 .img1 img{
@@ -367,12 +369,14 @@ button{
 	height: 175px;
 	object-fit: cover;
 	border-radius: 22px 22px 0 0;
+
 }
 
 .img2{
 	margin: 0;
 	border-radius: 24px;
 	box-shadow: 8px 8px 10px #aaa;
+	background: #fff;
 }
 
 .img2 img{
@@ -398,6 +402,7 @@ button{
 	border-radius: 24px;
 	overflow: hidden;
 	box-shadow: 8px 8px 10px #aaa;
+	background: #fff;
 }
 
 .img3 img{
@@ -411,6 +416,7 @@ button{
 	margin: 0;
 	border-radius: 24px;
 	box-shadow: 8px 8px 10px #aaa;
+	background: #fff;
 	overflow: hidden;
 }
 
