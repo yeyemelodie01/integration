@@ -65,6 +65,8 @@
 
 	.circle1{
     	width: 162px;
+    	float: left;
+		margin-right: 16px;
 	}
 
 	.info p{
@@ -76,4 +78,72 @@
 	#hebergements{
 		flex-direction: column-reverse;
 	}
+
+	.part{
+		width: auto;
+		border-radius: initial;
+	}
+
+	.part2{
+		width: auto;
+		height: auto;
+		padding-top: 1px;
+		border-radius: initial;
+		margin: 0;
+	}
+
+	#activite{
+		height: auto;
+		width: 408px;
+		padding-left: 34px;
+	}
+
+	.vieux{
+		float: initial;
+		margin: 0;
+	}
+
+	.vieux img{
+		width: 440px;
+		height: 150px;
+	}
+
+	.column{
+		float: initial;
+	}
+
+	.img1 img{
+		width: 440px;
+		height: 150px;
+	}
+
+	.img2 img{
+		width: 440px;
+		height: 150px;
+	}
+
+	.img3 img{
+		width: 440px;
+		height: 150px;
+	}
+
+	.img4 img{
+		width: 440px;
+		height: 150px;
+	}
+
+	footer{
+		display: block;
+	}
+
+	footer div{
+		position: initial;
+		padding: 0px 12px 1px 33px;
+	}
+
+	footer p{
+		margin: 10px 0;
+	}
+
+
 }
