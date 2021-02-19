@@ -13,31 +13,27 @@ a {
    color: black;
 }
 
-img {
-
-}
-
 /* MENU */
-header { height: 120px; }
+header { 
+	height: 61px;
+	margin-bottom: 18px;
+}
 
 header img {
-  float: left;
-  margin-top: 54px;
-  width: 97px;
-}
-
-header nav {
-  float: right;
-  margin-top: 50px;
+  	float: left;
+  	margin-right: 503px;
+	margin-top: 23px;
+	width: 97px;
 }
 
 header nav ul li { 
 	float: left;
+	margin-top: 37px;
 }
 
 header nav ul li a {
  margin-right: 20px;
- padding: 61px 31px 0 35px;
+ padding: 49px 31px 0 35px;
 }
 
 header nav ul li a:hover {
@@ -56,6 +52,14 @@ header nav ul li i {
 }
 
 /* RECHERCHE */
+#recherche h1{
+	margin-bottom: 0;
+}
+
+div p{
+	margin-top: 4px;
+}
+
 .noir {
    background-color: #f2f2f2;
    padding: 14px;
@@ -67,7 +71,7 @@ header nav ul li i {
 }
 
 .localisation input{
-	padding: 12px 0px 12px 4px;
+	padding: 13px 0px 12px 4px;
 	border: 1px solid #f2f2f2;
 	font-weight: bold;
 	font-size: 14px;
@@ -78,19 +82,21 @@ button{
 	background-color: #0065fc;
 	color: #fff;
 	border-radius: 0px 14px 14px 0px;
-	padding: 14px;
-	border: none;
+	padding: 15px;
+	border: 1px solid #0065fc;
+	font-weight: bold;
 }
 
 .filtre{
 	display: flex;
-	justify-content: flex-start;
 	align-items: center;
+	margin: 15px 0;
 }
 
 .filtre p{
 	font-weight: bold;
 	margin-right: 17px;
+	margin-top: 16px;
 }
 
 .filtre i{
@@ -138,6 +144,7 @@ button{
 .info{
 	display: flex;
 	align-items: center;
+	margin-bottom: 36px;
 }
 
 .info i{
@@ -147,7 +154,11 @@ button{
 	border-radius: 50%;
 	font-size: 12px;
 	margin-right: 12px;
+}
 
+.info p{
+	margin-top: 0;
+	margin-bottom: 2px;
 }
 
 /* HEBERGEMENT */
@@ -430,6 +441,8 @@ footer div{
 }
 
 /* RESPONSIVE TABLETTE */
+
+@media()
 
 @media (max-width: 480px){
 	body{
