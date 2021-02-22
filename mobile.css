@@ -2,8 +2,10 @@
 
 @media (max-width: 480px){
 	body{
-		width: 440px;
-		background: green;
+		width: 480px;
+		background: #565b56;
+		padding: 0;
+		margin: 0;
 	}
 
 	header{
@@ -34,9 +36,9 @@
 		bottom: 70px;
 		left: 271px;
 	}
-
+	/* RECHERCHE */
 	#recherche{
-		margin: 0 32px 0 32px;
+		margin-left: 32px;
 	}
 
 	#recherche h1{
@@ -74,7 +76,7 @@
 		top: 11px;
 		font-size: 17px;
 	}
-
+	/* HEBERGEMENT */
 	#hebergements{
 		flex-direction: column-reverse;
 	}
@@ -82,6 +84,30 @@
 	.part{
 		width: auto;
 		border-radius: initial;
+		background-color: #fff;
+	}
+
+	.part .container{
+		flex-direction: column;
+		margin: 26px;
+	}
+
+	.part figure{
+		margin: 0;
+		height: auto;
+	}
+
+	.part a img{
+		width: 100%;
+		height: 135px;
+	}
+
+	.image1 ,.image2 ,.image3 ,.image4 ,.image5 ,.image6{
+		width: auto;
+	}
+
+	.part figcaption{
+
 	}
 
 	.part2{
@@ -92,10 +118,29 @@
 		margin: 0;
 	}
 
+	.part2 figure{
+		height: auto;
+	}
+
+	.part2 img{
+		width: 173px;
+		height: 179px;
+	}
+
+	.part2 figcaption{
+		font-size: 18px;
+		height: 172px;
+		width: 216px;
+		padding: 7px 0px 0px 192px;
+	}
+
+	
+
+	/* ACTIVITE */
 	#activite{
 		height: auto;
-		width: 408px;
-		padding-left: 34px;
+		padding: 0;
+		width: auto;
 	}
 
 	.vieux{
@@ -108,8 +153,15 @@
 		height: 150px;
 	}
 
+	.vieux figcaption{
+		font-size: 15px;
+		display: flex;
+		justify-content: flex-start;
+	}
+
 	.column{
 		float: initial;
+		margin: 0;
 	}
 
 	.img1 img{
@@ -131,7 +183,8 @@
 		width: 440px;
 		height: 150px;
 	}
-
+	
+	/* FOOTER */
 	footer{
 		display: block;
 	}
