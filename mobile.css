@@ -82,7 +82,7 @@
 	}
 
 	.button2{
-		margin-bottom: 19px;
+		margin-bottom: 15px;
 	}
 
 	.button2 p{
@@ -96,8 +96,28 @@
 		margin-right: 16px;
 	}
 
-	.infos{
+	.circle1 i {
+    	padding: 13px 12px;
+	}
+
+	.circle2 i {
+    	padding: 13px 15px;
+	}
+
+	.circle3 i {
+    	padding: 14px 14px;
+	}
+
+	.circle4 i {
+    	padding: 14px 15px;
+	}
+
+	.info{
 		margin-right: 62px;
+	}
+
+	.info i{
+		padding: 5px 9px;
 	}
 
 	.info p{
