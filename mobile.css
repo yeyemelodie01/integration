@@ -3,46 +3,70 @@
 @media (max-width: 480px){
 	body{
 		width: 480px;
-		background: #565b56;
 		padding: 0;
 		margin: 0;
 	}
 
 	header{
-		height: 258px;
+		height: 133px;
 		margin: 0;
 	}
 	header img{
-		float: none;
-		margin-top: 14px;
+		margin: 14px 0 0 28px;
+	}
+
+	ul{
+		display: flex;
+	}
+
+	.list a{
+		padding: 0px 65px 16px 65px
+	}
+
+	.list1 a{
+		padding: 0px 90px 16px 65px;
+		margin-right: 0;
 	}
 
 	.list{
 		position: relative;
-		right: 54px;
-	}
-
-	.list a:hover{
-		border:none;
-		color: none;
+		top: 65px;
+		right: 321px;
 	}
 
 	.list a:active{
-		border-bottom: 2px solid #0065fc;
+		border-bottom:2px solid #0065fc;
+		color: #0065fc;
 	}
 
-	.bleu{
-		position: relative;
-		bottom: 70px;
-		left: 271px;
+	list a:visited{
+		border-bottom:2px solid #0065fc;
+		color: #0065fc;
 	}
+
+	.list2{
+		order: -1;
+		position: relative;
+		bottom: 6px;
+		left: 155px;
+	}
+
 	/* RECHERCHE */
 	#recherche{
 		margin-left: 32px;
 	}
 
 	#recherche h1{
-		
+		margin-right: 74px;
+	}
+
+	.btn p{
+		display: none;
+	}
+
+	button{
+		border-radius: 14px;
+		padding: 14px;
 	}
 
 	div p{
@@ -63,12 +87,17 @@
 
 	.button2 p{
 		margin: 0;
+		transition:all 1s;
 	}
 
 	.circle1{
     	width: 162px;
     	float: left;
 		margin-right: 16px;
+	}
+
+	.infos{
+		margin-right: 62px;
 	}
 
 	.info p{
@@ -79,6 +108,7 @@
 	/* HEBERGEMENT */
 	#hebergements{
 		flex-direction: column-reverse;
+		margin-bottom: 45px;
 	}
 
 	.part{
@@ -89,12 +119,24 @@
 
 	.part .container{
 		flex-direction: column;
-		margin: 26px;
+		margin: 26px 36px;
+	}
+
+	.container a{
+		margin-bottom: 17px;
+		border-radius: 24px;
+		border: 6px solid #fff;
+		box-shadow: 8px 8px 10px #aaa;
+	}
+
+	.part span{
+		font-size: 18px;
 	}
 
 	.part figure{
 		margin: 0;
 		height: auto;
+		border: 0;
 	}
 
 	.part a img{
@@ -107,7 +149,12 @@
 	}
 
 	.part figcaption{
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
 
+	.part figcaption h3{
+		font-size: 16px;
 	}
 
 	.part2{
@@ -134,22 +181,37 @@
 		padding: 7px 0px 0px 192px;
 	}
 
+	.legend p {
+    	margin-bottom: 68px;
+    }
+
+	.part2 .etoile {
+    	font-size: 16px;
+	}
+
 	
 
 	/* ACTIVITE */
 	#activite{
 		height: auto;
 		padding: 0;
-		width: auto;
+		margin-left: 36px;
 	}
 
-	.vieux{
-		float: initial;
+	#activite a{
 		margin: 0;
+		margin-bottom: 40px;
+	}
+
+	#activite .vieux{
+		float: none;
+		margin: 0;
+		margin-bottom: 40px;
+		width: 92%;
 	}
 
 	.vieux img{
-		width: 440px;
+		width: 100%;
 		height: 150px;
 	}
 
@@ -160,27 +222,63 @@
 	}
 
 	.column{
-		float: initial;
+		float: none;
+		margin: 0;
+	}
+
+	.column a{
+		width: 92%;
+	}
+
+	.img1{
 		margin: 0;
 	}
 
 	.img1 img{
-		width: 440px;
+		width: 100%;
 		height: 150px;
+	}
+
+	.img1 figcaption{
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.img2 figcaption{
+		display: flex;
+		justify-content: flex-start;
 	}
 
 	.img2 img{
-		width: 440px;
+		width: 100%;
 		height: 150px;
+	}
+
+	.column2 a{
+		width: 92%;
+	}
+
+	.img3{
+		margin: 0;
+	}
+
+	.img3 figcaption{
+		display: flex;
+		justify-content: flex-start;
 	}
 
 	.img3 img{
-		width: 440px;
+		width: 100%;
 		height: 150px;
 	}
 
+	.img4 figcaption{
+		display: flex;
+		justify-content: flex-start;
+	}
+
 	.img4 img{
-		width: 440px;
+		width: 100%;
 		height: 150px;
 	}
 	
@@ -190,8 +288,13 @@
 	}
 
 	footer div{
-		position: initial;
+		position: static;
 		padding: 0px 12px 1px 33px;
+	}
+
+	footer h3{
+		margin-top: 0;
+		padding-top: 28px;
 	}
 
 	footer p{
