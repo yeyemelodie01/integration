@@ -1,4 +1,20 @@
 /* GENERAL */
+@media (min-width: 960px){
+	header nav ul li a:hover {
+   		border-top: 3px solid #0065fc;
+   		color: #0065fc;
+	}
+
+	.button2 p:hover{
+		background: #0065fc;
+		color: #fff;
+		transition: all 1s ease-in;
+	}
+
+	.btn i{
+		display: none;
+	}
+}
 body { 
 	font-family: 'Raleway', sans-serif;
 	width: 1103px;
@@ -36,11 +52,6 @@ header nav ul li a {
  padding: 49px 31px 0 35px;
 }
 
-header nav ul li a:hover {
-   border-top: 3px solid #0065fc;
-   color: #0065fc;
-}
-
 .bleu {
 	font-weight: bold;
 	color: #0065fc;
@@ -71,7 +82,7 @@ div p{
 }
 
 .localisation input{
-	padding: 13px 0px 12px 4px;
+	padding: 12px 0px 13px 4px;
 	border: 1px solid #f2f2f2;
 	font-weight: bold;
 	font-size: 14px;
@@ -82,7 +93,7 @@ button{
 	background-color: #0065fc;
 	color: #fff;
 	border-radius: 0px 14px 14px 0px;
-	padding: 15px;
+	padding: 8px 11px 5px 11px;
 	border: 1px solid #0065fc;
 	font-weight: bold;
 }
@@ -134,13 +145,8 @@ button{
 	display: flex;
 	align-items: center;
 	border-style: solid solid solid hidden;
-	transition:all 1s;
 }
 
-.button2 p:hover{
-	background: #0065fc;
-	color: #fff;
-}
 .info{
 	display: flex;
 	align-items: center;
@@ -198,6 +204,7 @@ button{
 	border: 6px solid #fff;
 	border-radius: 24px;
 	height: 156px;
+	background: #fff;
 }
 
 .part img{
@@ -353,6 +360,7 @@ button{
 
 .column figcaption{
 	padding-left: 17px;
+	padding-bottom: 1px;
 	font-size: 13px;
 }
 
@@ -381,7 +389,7 @@ button{
 
 .img2 img{
 	width: 254px;
-	height: 93px;
+	height: 91px;
 	object-fit: cover;
 	border-radius: 22px 22px 0 0;
 }
@@ -407,7 +415,7 @@ button{
 
 .img3 img{
 	width: 254px;
-	height: 124px;
+	height: 128px;
 	object-fit: cover;
 	border-radius: 22px 22px 0 0;
 }
@@ -446,13 +454,3 @@ footer div{
 	right: 108px;
 }
 
-/* RESPONSIVE TABLETTE */
-
-@media()
-
-@media (max-width: 480px){
-	body{
-		background: green;
-	}
-}
-/* RESPONSIVE TELEPHONE */
