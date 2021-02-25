@@ -85,6 +85,7 @@ div p{
 	border: 1px solid #f2f2f2;
 	font-weight: bold;
 	border-style: solid hidden solid hidden;
+	margin: 0;
 }
 
 button{
@@ -94,6 +95,7 @@ button{
 	padding: 11px 11px;
 	border: 1px solid #0065fc;
 	font-weight: bold;
+	margin: 0;
 }
 
 button p{
@@ -261,12 +263,14 @@ button p{
 }
 
 /* POPULAIRES */
-#populaires h2 i{
-	padding-left: 47px;
+#populaires{
+	background-color: #f2f2f2;
+	border-radius: 27px;
+	margin-left: 31px;
 }
 
-#populaire h2{
-
+#populaires h2 i{
+	padding-left: 47px;
 }
 
 #populaires h3 {
@@ -274,13 +278,11 @@ button p{
 }
 
 .part2 { 
-	background-color: #f2f2f2;
 	width: 360px;
 	height: 548px;
-	margin-left: 31px;
-	border-radius: 27px;
 	padding-top: 1px;
 }
+
 .part2 .container{
 	display: flex;
 	flex-direction: column;
