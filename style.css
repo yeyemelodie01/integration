@@ -1,5 +1,5 @@
 /* GENERAL */
-@media (min-width: 960px){
+@media (min-width: 1025px){
 	header nav ul li a:hover {
    		border-top: 3px solid #0065fc;
    		color: #0065fc;
@@ -19,7 +19,6 @@ body {
 	font-family: 'Raleway', sans-serif;
 	width: 1103px;
     margin: 0 auto;
-    padding: 0 10px;
 }
 
 li { list-style: none; }
@@ -73,7 +72,7 @@ div p{
 
 .noir {
    background-color: #f2f2f2;
-   padding: 14px;
+   padding: 11px 11px;
    border-radius: 14px 0px 0px 14px;
 }
 .localisation{
@@ -82,10 +81,9 @@ div p{
 }
 
 .localisation input{
-	padding: 12px 0px 13px 4px;
+	padding: 11px 0px 11px 4px;
 	border: 1px solid #f2f2f2;
 	font-weight: bold;
-	font-size: 14px;
 	border-style: solid hidden solid hidden;
 }
 
@@ -93,9 +91,13 @@ button{
 	background-color: #0065fc;
 	color: #fff;
 	border-radius: 0px 14px 14px 0px;
-	padding: 8px 11px 5px 11px;
+	padding: 11px 11px;
 	border: 1px solid #0065fc;
 	font-weight: bold;
+}
+
+button p{
+	margin: 0;
 }
 
 .filtre{
@@ -440,6 +442,7 @@ footer {
    background-color: #f2f2f2;
    display: flex;
    justify-content: space-around;
+   width: 100%;
 }
 
 footer h3{
@@ -451,6 +454,6 @@ footer p{
 
 footer div{
 	position: relative;
-	right: 108px;
+	right: 85px;
 }
 
