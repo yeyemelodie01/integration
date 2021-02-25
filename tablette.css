@@ -3,24 +3,47 @@
 
 	body{
 		width:747px;
-		margin: 0 10px;
+		margin: 0 auto;
 	}
 
 	/* HEADER */
+	header{
+		margin-bottom: 38px;
+	}
+
 	header img{
 		margin-right: 146px;
+	}
+
+	.list a:active{
+		border-top:2px solid #0065fc;
+		color: #0065fc;
 	}
 
 	/* RECHERCHE */
 	#recherche h1{
 		font-size: 20px;
 	}
+
+	.button2 p{
+		font-size: 14px;
+	}
+
 	.btn i{
 		display: none;
 	}
 	
 
 	/* HEBERGEMENTS */
+	#hebergements{
+		height: 659px;
+	}
+
+	#hebergements h2{
+		margin: 13px 0 0 17px;
+		font-size: 19px;
+	}
+
 	.part{
 		width: 56%;
 	}
@@ -31,28 +54,120 @@
 	}
 
 	.part a{
-		width: 41%;
-		margin-right: 6px;
-		margin-left: 33px;
+		width: 43%;
+		margin: 0 12px;
+		margin-bottom: 16px;
 	}
 
 	.part figure{
 		width: 100%;
+		margin: 0;
+		height: auto;
 	}
 
 	.part img{
-		width: 253px;
+		width: 180px;
+	}
+
+	#populaires{
+		width: 40%;
+		margin-left: 20px;
 	}
 
 	.part2{
-		height: 100%;
+		width: 100%;
+
 	}
 
 	.part2 figure{
-		height: 175px;
+		margin: 0 12px;
+		margin-top: 27px;
+		height: 151px;
+	}
+
+	.part2 img{
+		height: 151px;
+		width: 116px;
+	}
+
+	.part2 figcaption{
+		width: 138px;
+		height: 144px;
+		border-radius: 18px;
+		padding-left: 126px;
+	}
+
+	.legend p{
+		margin-bottom: 58px;
+	}
+
+	.part2 .etoile{
+		font-size: 13px;
 	}
 
 	/* ACTIVITE */
+	#activite{
+		height: 513px;
+	}
+	.activ{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.activ a{
+		height: 200px;
+		margin-bottom: 31px;
+	}
+
+	.vieux{
+		float: none;
+		margin: 0;
+		height: 200px;
+	}
+
+	.vieux img{
+		width: 230px;
+		height: 146px;
+	}
+
+	.column{
+		flex-direction: row;
+		width: 489px;
+		margin-right: 5px;
+	}
+
+	.img1{
+		margin: 0;
+		margin-right: 24px;
+	}
+
+	.img1 img {
+    	width: 235px;
+    	height: 146px;
+    }
+
+    .img2 img{
+    	width: 235px;
+		height: 146px;
+    }
+	.column2{
+		flex-direction: row;
+	}
+
+	.img3{
+		margin-right: 24px;
+	}
+
+	.img3 img{
+		width: 235px;
+		height: 146px;
+	}
+
+	.img4 img{
+		width: 235px;
+		height: 146px;
+	}
 
 	/* FOOTER */
 	footer div{
