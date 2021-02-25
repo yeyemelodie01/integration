@@ -1,0 +1,61 @@
+@media screen and (min-width: 481px) and (max-width: 1024px){
+	/* GENERAL */
+
+	body{
+		width:747px;
+		margin: 0 10px;
+	}
+
+	/* HEADER */
+	header img{
+		margin-right: 146px;
+	}
+
+	/* RECHERCHE */
+	#recherche h1{
+		font-size: 20px;
+	}
+	.btn i{
+		display: none;
+	}
+	
+
+	/* HEBERGEMENTS */
+	.part{
+		width: 56%;
+	}
+
+	.part .container{
+		justify-content: flex-start;
+		margin-top: 28px;
+	}
+
+	.part a{
+		width: 41%;
+		margin-right: 6px;
+		margin-left: 33px;
+	}
+
+	.part figure{
+		width: 100%;
+	}
+
+	.part img{
+		width: 253px;
+	}
+
+	.part2{
+		height: 100%;
+	}
+
+	.part2 figure{
+		height: 175px;
+	}
+
+	/* ACTIVITE */
+
+	/* FOOTER */
+	footer div{
+		right: 21px;
+	}
+}
