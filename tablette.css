@@ -15,7 +15,7 @@
 		margin-right: 146px;
 	}
 
-	.list a:active{
+	header nav ul li a:active{
 		border-top:2px solid #0065fc;
 		color: #0065fc;
 	}
@@ -23,6 +23,11 @@
 	/* RECHERCHE */
 	#recherche h1{
 		font-size: 20px;
+	}
+
+	.button2 p:active{
+		background: #0065fc;
+		color: #fff;
 	}
 
 	.button2 p{
