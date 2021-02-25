@@ -2,9 +2,9 @@
 
 @media screen and (max-width: 480px){
 	body{
-		width: 480px;
+		width: 375px;
 		padding: 0;
-		margin: 0;
+		margin: 0 auto;
 	}
 
 	header{
@@ -12,7 +12,7 @@
 		margin: 0;
 	}
 	header img{
-		margin: 14px 0 0 28px;
+		margin: 14px 0 0 27px;
 	}
 
 	ul{
@@ -20,11 +20,12 @@
 	}
 
 	.list a{
-		padding: 0px 65px 16px 65px
+		padding: 0px 30px 16px 53px;
+		margin: 0;
 	}
 
 	.list1 a{
-		padding: 0px 90px 16px 65px;
+		padding: 0px 87px 16px 30px;
 		margin-right: 0;
 	}
 
@@ -39,7 +40,7 @@
 		color: #0065fc;
 	}
 
-	list a:visited{
+	.list a:visited{
 		border-bottom:2px solid #0065fc;
 		color: #0065fc;
 	}
@@ -48,7 +49,7 @@
 		order: -1;
 		position: relative;
 		bottom: 6px;
-		left: 155px;
+		left: 68px;
 	}
 
 	/* RECHERCHE */
@@ -90,6 +91,11 @@
 		transition:all 1s;
 	}
 
+	.button2 p:active{
+		background: #0065fc;
+		color: #fff;
+	}
+
 	.circle1{
     	width: 162px;
     	float: left;
@@ -129,6 +135,9 @@
 	#hebergements{
 		flex-direction: column-reverse;
 		margin-bottom: 45px;
+	}
+	#hebergements h2{
+		font-size: 18px;
 	}
 
 	.part{
@@ -177,6 +186,10 @@
 		font-size: 16px;
 	}
 
+	#populaires{
+		margin-right: 31px;
+	}
+
 	.part2{
 		width: auto;
 		height: auto;
@@ -190,26 +203,20 @@
 	}
 
 	.part2 img{
-		width: 173px;
-		height: 179px;
+		width: 108px;
+		height: 121px;
 	}
 
 	.part2 figcaption{
-		font-size: 18px;
-		height: 172px;
-		width: 216px;
-		padding: 7px 0px 0px 192px;
+		font-size: 10px;
+		height: 114px;
+		width: 117px;
+		padding: 7px 0px 0px 124px;
 	}
 
 	.legend p {
-    	margin-bottom: 68px;
+    	margin-bottom: 44px;
     }
-
-	.part2 .etoile {
-    	font-size: 16px;
-	}
-
-	
 
 	/* ACTIVITE */
 	#activite{
