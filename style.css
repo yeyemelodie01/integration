@@ -93,12 +93,12 @@ button{
 	color: #fff;
 	border-radius: 0px 14px 14px 0px;
 	padding: 11px 11px;
-	border: 1px solid #0065fc;
+	border: 1px solid;
 	font-weight: bold;
 	margin: 0;
 }
 
-button p{
+button span{
 	margin: 0;
 }
 
@@ -174,10 +174,14 @@ button p{
 /* HEBERGEMENT */
 #hebergements{
 	display: flex;
+	height: 508px;
+	margin-bottom: 30px;
 }
+
 .etoile{
 	color: #0065fc;
 }
+
 .etoile .gris{
 	color: rgb(217,217,217);
 }
@@ -231,10 +235,6 @@ button p{
 .part figcaption h3{
 	font-size: 14px;
 	margin: 0;
-}
-
-.container a : link{
-	color: red;
 }
 
 .image1{
@@ -444,18 +444,19 @@ footer {
    background-color: #f2f2f2;
    display: flex;
    justify-content: space-around;
-   width: 100%;
+   width: 1%;
 }
 
 footer h3{
 	font-size: 16px;
 }
+
 footer p{
 	font-size: 14px;
 }
 
 footer div{
 	position: relative;
-	right: 85px;
+	right: 19px;
 }
 
