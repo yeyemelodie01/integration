@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 480px){
 	body{
-		width: 375px;
+		width: 360px;
 		padding: 0;
 		margin: 0 auto;
 	}
@@ -25,14 +25,14 @@
 	}
 
 	.list1 a{
-		padding: 0px 87px 16px 30px;
+		padding: 0px 86px 16px 30px;
 		margin-right: 0;
 	}
 
 	.list{
 		position: relative;
 		top: 65px;
-		right: 321px;
+		right: 334px;
 	}
 
 	.list a:active{
@@ -49,7 +49,7 @@
 		order: -1;
 		position: relative;
 		bottom: 6px;
-		left: 68px;
+		left: 39px;
 	}
 
 	/* RECHERCHE */
@@ -150,7 +150,8 @@
 
 	.part .container{
 		flex-direction: column;
-		margin: 26px 36px;
+		margin: 26px 16px;
+		padding: 0;
 	}
 
 	.container a{
@@ -189,7 +190,8 @@
 	}
 
 	#populaires{
-		margin-right: 31px;
+		margin-right: 20px;
+		margin-left: 20px;
 	}
 
 	.part2{
@@ -202,6 +204,7 @@
 
 	.part2 figure{
 		height: auto;
+		background: #fff;
 	}
 
 	.part2 img{
@@ -213,7 +216,7 @@
 		font-size: 10px;
 		height: 114px;
 		width: 117px;
-		padding: 7px 0px 0px 124px;
+		padding: 7px 0px 0px 130px;
 	}
 
 	.legend p {
