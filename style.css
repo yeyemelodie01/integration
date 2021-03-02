@@ -17,7 +17,7 @@
 }
 body { 
 	font-family: 'Raleway', sans-serif;
-	width: 1103px;
+	width: 1135px;
     margin: 0 auto;
 }
 
@@ -174,8 +174,7 @@ button span{
 /* HEBERGEMENT */
 #hebergements{
 	display: flex;
-	height: 533px;
-	margin-bottom: 30px;
+	margin-bottom: 46px;
 }
 
 .etoile{
@@ -193,6 +192,7 @@ button span{
 .part span{
 	font-weight: bold;
 	margin-left: 32px;
+	font-size: 18px;
 }
 
 .part{
@@ -205,6 +205,7 @@ button span{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
+   padding: 0 22px 0 29px;
 }
 
 .part figure{
@@ -266,7 +267,7 @@ button span{
 #populaires{
 	background-color: #f2f2f2;
 	border-radius: 27px;
-	margin-left: 31px;
+	margin-left: 40px;
 }
 
 #populaires h2 i{
@@ -334,7 +335,7 @@ button span{
 .vieux{
 	float: left;
 	margin: 0;
-	margin-right: 24px;
+	margin-right: 30px;
 	border-radius: 15px;
 	box-shadow: 8px 8px 10px #aaa;
 	background: #fff;
@@ -358,7 +359,7 @@ button span{
 	float: left;
 	display: flex;
 	flex-direction: column;
-	margin-right: 24px;
+	margin-right: 30px;
 }
 
 .column figcaption{
@@ -417,7 +418,7 @@ button span{
 }
 
 .img3 img{
-	width: 254px;
+	width: 267px;
 	height: 128px;
 	object-fit: cover;
 	border-radius: 22px 22px 0 0;
@@ -432,7 +433,7 @@ button span{
 }
 
 .img4 img{
-	width: 254px;
+	width: 267px;
 	height: 144px;
 	object-fit: cover;
 	border-radius: 22px 22px 0 0;
@@ -443,7 +444,6 @@ footer {
    background-color: #f2f2f2;
    display: flex;
    justify-content: space-around;
-   width: 1%;
 }
 
 footer h3{
@@ -456,6 +456,6 @@ footer p{
 
 footer div{
 	position: relative;
-	right: 19px;
+	right: 70px;
 }
 
