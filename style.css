@@ -174,7 +174,7 @@ button span{
 /* HEBERGEMENT */
 #hebergements{
 	display: flex;
-	height: 508px;
+	height: 533px;
 	margin-bottom: 30px;
 }
 
@@ -203,8 +203,8 @@ button span{
 
 .part .container {
    display: flex;
-   flex-flow: row wrap;
-   justify-content: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
 
 .part figure{
@@ -279,7 +279,6 @@ button span{
 
 .part2 { 
 	width: 360px;
-	height: 548px;
 	padding-top: 1px;
 }
 
