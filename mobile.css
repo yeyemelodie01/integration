@@ -61,13 +61,15 @@
 		margin-right: 74px;
 	}
 
-	.btn p{
+	.btn span{
 		display: none;
 	}
 
 	button{
 		border-radius: 14px;
-		padding: 14px;
+		padding: 11px;
+		position: relative;
+		right: 8px;
 	}
 
 	div p{
