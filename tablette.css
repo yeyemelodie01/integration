@@ -175,7 +175,10 @@
 	}
 
 	/* FOOTER */
+	footer{
+		margin: 0;
+	}
 	footer div{
-		right: 21px;
+		left: 27px;
 	}
 }
