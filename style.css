@@ -172,7 +172,7 @@ button span{
 }
 
 /* HEBERGEMENT */
-#hebergements{
+main{
 	display: flex;
 	margin-bottom: 46px;
 }
@@ -189,26 +189,25 @@ button span{
 	margin-left: 32px;
 }
 
-.part span{
-	font-weight: bold;
-	margin-left: 32px;
-	font-size: 18px;
-}
-
-.part{
+#hebergements{
    background-color: #f2f2f2;
    border-radius: 27px;
    width: 713px;
 }
 
-.part .container {
+.text{
+	font-weight: bold;
+	padding-left: 33px;
+}
+
+.container {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    padding: 0 19px 0 26px;
 }
 
-.part figure{
+#hebergements figure{
 	margin: 0 9px 30px 0;
 	border: 6px solid #fff;
 	border-radius: 24px;
@@ -216,24 +215,24 @@ button span{
 	background: #fff;
 }
 
-.part img{
+#hebergements img{
 	border-radius: 17px 16px 0 0;
 	width: 200px;
 	height: 100px;
 	object-fit: cover;
 }
 
-.part figcaption{
+#hebergements figcaption{
 	background: #fff;
 	border-radius: 0 0 17px 17px;
 	padding: 0px 0px 0px 11px;
 	font-size: 12px;
 }
-.part figcaption p{
+#hebergements figcaption p{
 	margin: 2px 0px;
 }
 
-.part figcaption h3{
+#hebergements figcaption h3{
 	font-size: 14px;
 	margin: 0;
 }
@@ -278,12 +277,15 @@ button span{
 	margin: 1px;
 }
 
-.part2 { 
-	width: 360px;
-	padding-top: 1px;
+#populaires h2{
+	padding-left: 30px;
 }
 
-.part2 .container{
+.part2 { 
+	width: 360px;
+}
+
+.container2{
 	display: flex;
 	flex-direction: column;
 }
@@ -446,12 +448,18 @@ footer {
    justify-content: space-around;
 }
 
-footer h3{
+footer ul{
+	padding: 0;
+}
+
+footer h2{
 	font-size: 16px;
 }
 
-footer p{
+
+footer li{
 	font-size: 14px;
+	padding-bottom: 7px;
 }
 
 footer div{
