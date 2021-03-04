@@ -49,35 +49,44 @@
 		font-size: 19px;
 	}
 
-	.part{
+	#hebergements{
 		width: 56%;
 	}
 
-	.part .container{
+	.container{
 		justify-content: flex-start;
 		margin-top: 28px;
 		padding: 0;
 	}
 
-	.part a{
+	#hebergements a{
 		width: 43%;
 		margin: 0 12px;
 		margin-bottom: 16px;
 	}
 
-	.part figure{
+	#hebergements figure{
 		width: 100%;
 		margin: 0;
 		height: auto;
 	}
 
-	.part img{
+	#hebergements img{
 		width: 180px;
+	}
+
+	.text{
+		padding-left: 6px;
 	}
 
 	#populaires{
 		width: 40%;
 		margin-left: 20px;
+	}
+
+	#populaires h2{
+		font-size: 19px;
+		margin-bottom: 26px;
 	}
 
 	.part2{
@@ -87,7 +96,6 @@
 
 	.part2 figure{
 		margin: 0 12px;
-		margin-top: 27px;
 		height: 151px;
 	}
 
@@ -101,6 +109,9 @@
 		height: 144px;
 		border-radius: 18px;
 		padding-left: 126px;
+	}
+	.container2 a{
+		margin-bottom: 26px;
 	}
 
 	.legend p{
