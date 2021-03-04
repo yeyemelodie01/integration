@@ -11,6 +11,7 @@
 		height: 133px;
 		margin: 0;
 	}
+
 	header img{
 		margin: 14px 0 0 27px;
 	}
@@ -134,44 +135,44 @@
 		font-size: 17px;
 	}
 	/* HEBERGEMENT */
-	#hebergements{
+	main{
 		flex-direction: column-reverse;
 		margin-bottom: 45px;
 	}
 	#hebergements h2{
-		font-size: 18px;
+		font-size: 20px;
 	}
 
-	.part{
+	#hebergements{
 		width: auto;
-		border-radius: initial;
 		background-color: #fff;
+		margin-top: 26px;
 	}
 
-	.part .container{
+	.container{
 		flex-direction: column;
 		margin: 26px 16px;
 		padding: 0;
 	}
 
 	.container a{
-		margin-bottom: 17px;
+		margin-bottom: 27px;
 		border-radius: 24px;
 		border: 6px solid #fff;
 		box-shadow: 8px 8px 10px #aaa;
 	}
 
-	.part span{
+	#hebergements span{
 		font-size: 18px;
 	}
 
-	.part figure{
+	#hebergements figure{
 		margin: 0;
 		height: auto;
 		border: 0;
 	}
 
-	.part a img{
+	#hebergements a img{
 		width: 100%;
 		height: 135px;
 	}
@@ -180,12 +181,12 @@
 		width: auto;
 	}
 
-	.part figcaption{
+	#hebergements figcaption{
 		font-size: 15px;
 		padding-bottom: 10px;
 	}
 
-	.part figcaption h3{
+	#hebergements figcaption h3{
 		font-size: 16px;
 	}
 
@@ -194,11 +195,13 @@
 		margin-left: 20px;
 	}
 
+	#populaires h2{
+		font-size: 20px;
+	}
+	
 	.part2{
 		width: auto;
 		height: auto;
-		padding-top: 1px;
-		border-radius: initial;
 		margin: 0;
 	}
 
@@ -319,17 +322,21 @@
 		display: block;
 	}
 
+	footer ul{
+		display: block;
+	}
+
 	footer div{
 		position: static;
 		padding: 0px 12px 1px 33px;
 	}
 
-	footer h3{
+	footer h2{
 		margin-top: 0;
 		padding-top: 28px;
 	}
 
-	footer p{
+	footer li{
 		margin: 10px 0;
 	}
 
